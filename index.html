@@ -5,117 +5,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="keywords" content="agencia, css, html">
-    <meta name="descrption" content="Um site teste">
-    <title>Agencia fake</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="CSS/menu_estilo.css">
 
-    <link rel="stylesheet" href="responsivo.css">
-
+    <title>Recomenda Cursos</title>
 </head>
 
 <body>
 
-    <nav class="navbar">
-
-        <div class="logo">
-            <h1>Agencia Fake</h1>
-        </div>
-
-        <div class="menu">
-            <a href="#">Home</a>
-            <a href="#">Sobre nos</a>
-            <a href="#">Serviços</a>
-            <a id="botao" href="#">Fale conosco</a>
-        </div>
-
-    </nav>
-
     <header class="header">
 
-        <div class="headeline">
-            <h2 style="letter-spacing: 15px;">Voce achou amelhor<h2>
+        <div class="logo">
 
-                    <h2 style="font-size: 80px;">Agencia digital</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci commodi molestiae nemo debitis,
-                        hic consequatur accusamus ipsum! Odio iusto accusantium sapiente, aliquid eaque eius, temporibus
-                        ratione dicta accusamus, adipisci nihil?</p>
-                    <a class="contact" href="#">Contrate agora</a>
+            <h2>
+                <a style="word-spacing: 7px;" href="#">RC - Recomenda Cursos</a>
+            </h2>
 
         </div>
-        <div class="img_headeline">
-            <img style="max-width: 90%;" src="imagens/imagem1.png">
-        </div>
+
+
+        <nav class="nav">
+
+            <ul>
+                <li><a href="#">Mais Adquiridos</a></li>
+
+                <li><a href="#">Melhor Avaliados</a></li>
+
+                <li><button class="menu_icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button></li>
+            </ul>
+
+        </nav>
 
     </header>
 
-    <section>
 
-        <h2>O que podemos fazer pelo seu negocio?</h2>
+    <main class="container_main">
 
-        <div class="serviços">
-            <div class="card">
-                <img src="imagens/icons/pc.png">
-                <div class="card_text">
-                    <h3>Densevolvimento de sites</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero vitae quis quos blanditiis
-                        recusandae provident dicta fugit, incidunt quo sint? Molestiae eveniet corrupti eos voluptatibus
-                        nulla adipisci dolorem expedita quas!</p>
-                </div>
-                <div class="texto_oculto">
-                    <h3>Outro conteudo qualquer</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero vitae quis quos blanditiis
-                        recusandae provident dicta fugit, incidunt quo sint? Molestiae eveniet corrupti eos voluptatibus
-                        nulla adipisci dolorem expedita quas!</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="imagens/icons/mobile-phone.png">
-                <div class="card_text">
-                    <h3>Marketing digital</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero vitae quis quos blanditiis
-                        recusandae provident dicta fugit, incidunt quo sint? Molestiae eveniet corrupti eos voluptatibus
-                        nulla adipisci dolorem expedita quas!</p>
-                </div>
-                <div class="texto_oculto">
-                    <h3>Titulo qualquer</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero vitae quis quos blanditiis
-                        recusandae provident dicta fugit, incidunt quo sint? Molestiae eveniet corrupti eos voluptatibus
-                        nulla adipisci dolorem expedita quas!</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="imagens/icons/marketing.png">
-                <div class="card_text">
-                    <h3>Densevolvimento de apps</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero vitae quis quos blanditiis
-                        recusandae provident dicta fugit, incidunt quo sint? Molestiae eveniet corrupti eos voluptatibus
-                        nulla adipisci dolorem expedita quas!</p>
-                </div>
-                <div class="texto_oculto">
-                    <h3>qualquer texto</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero vitae quis quos blanditiis
-                        recusandae provident dicta fugit, incidunt quo sint? Molestiae eveniet corrupti eos voluptatibus
-                        nulla adipisci dolorem expedita quas!</p>
-                </div>
+        <div class="coluna_esquerda">
+            <div class="titulo">
+
+                <h1>Cursos Online <br>testados e avaliados</h1>
+                <p id="out_br"><b>Análises completas e imparciais sobre os principais cursos do mercado. Veja prós,
+                        contras e depoimentos de alunos reais para tomar a melhor decisão para o seu futuro</b>
+                </p>
+
             </div>
 
+            <section class="container_fav">
+
+                <h2>Favoritos:</h2>
+
+                <div class="cards">
+                    <article>
+                        <img src="capa_dos_cursos/naile_unhas.png">
+                        <div class="stars" style="--rating: 5.0;"></div>
+                        <h3>Designer Ulhas</h3>
+                    </article>
+
+                    <article>
+                        <img src="capa_dos_cursos/naile_unhas.png">
+                        <div class="stars" style="--rating: 5.0;"></div>
+                        <h3>Designer Ulhas</h3>
+                    </article>
+
+                    <article>
+                        <img src="capa_dos_cursos/naile_unhas.png">
+                        <div class="stars" style="--rating: 4.7;"></div>
+                        <h3>Designer Ulhas</h3>
+                    </article>
+                </div>
+            </section>
 
         </div>
 
 
-    </section>
+        <div class="coluna_direita">
+            <div class="img_coroa"> <img src="Icons/chapeu_formatura.png">
+                <h2>Qual o seu nicho?</h2>
+            </div>
+
+
+
+            <div class="categorias">
+
+                <ul>
+                    <li style="border-top-left-radius: 12px; border-top-right-radius: 12px;">
+                        <a class="links_cat" href="#">
+
+                            <span>Marketing & Vendas</span>
+                            <img src="Icons/marketing.png">
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a class="links_cat" href="#">
+                            <span>Gastronomia & Confeitaria</span>
+                            <img src="Icons/gastronomia.png">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="links_cat" href="#">
+                            <span>Tecnologia & Programação</span>
+                            <img src="Icons/pc.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="links_cat" href="#">
+                            <span>Finanças & Investimentos</span>
+                            <img src="Icons/dinheiro.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="links_cat" href="#">
+                            <span>Línguas & Idiomas</span>
+                            <img src="Icons/languagem.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="links_cat" href="#">
+                            <span>Design & Edição</span>
+                            <img src="Icons/web-design.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="links_cat" href="#">
+                            <span>Saúde & Bem-Estar</span>
+                            <img src="Icons/coracao.png">
+                        </a>
+                    </li>
+                    <li style="border-bottom-left-radius: 12px; border-bottom-right-radius: 12px;">
+                        <a class="links_cat" href="#">
+                            <span>Estética & Beleza</span>
+                            <img src="Icons/beleza.png">
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+        </div>
+
+
+
+    </main>
 
     <footer>
-        <div class="logo_rodape">
-            <h1 class="agencia">Agencia fake</h1>
-            <p style="color: white;">Um site feito com html e css puro</p>
-        </div>
-        <b style="color: white;">© Todos os direitos reservados</b>
+
     </footer>
-    <a class="wats_logo" href="https://w.app/ca3nn1" target="_blank">
-        <img style="width: 100px;" src="imagens/watz_logo.png">
-    </a>
+
 
 </body>
 
